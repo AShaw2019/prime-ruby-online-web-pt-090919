@@ -1,4 +1,4 @@
 def prime?(number)
-  if number.find{|i| i.()}
+  if number.any?{|i| i.()}
     
 end
