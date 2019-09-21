@@ -1,3 +1,3 @@
 def prime?(number)
- if [numbers].any?
+ if [numbers].any?{|numbers
  end
