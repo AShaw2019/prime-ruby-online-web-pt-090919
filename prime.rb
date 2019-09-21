@@ -1,5 +1,5 @@
 def prime?(number)
- if [number].all?{|i| i < number}
+ if number.include? -1
   return false 
 else 
     [number].any?{|i| i > number}
