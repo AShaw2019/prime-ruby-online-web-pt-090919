@@ -1,12 +1,8 @@
 def prime?(number)
- 
-all_prime = true
-[1,2,3].each do |number|
-  if number.non_prime?
-    all_prime = false
-  else
-  [number].any?{|i| i > number}
+  if [number].any?{|i| i > number}
     return true
- 
-  end
+  else 
+  if 
+  return false
+ end
  end
