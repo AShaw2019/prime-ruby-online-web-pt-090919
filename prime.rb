@@ -1,7 +1,11 @@
 def prime?(number)
-  if  number -= 1
-  return true  
- else [number].any?{|i| i > number}
-  return false
+  if [number].any?{|i| i > number}
+    return true
+  elsif 
+  number -= 1
+  return false 
+ 
+  
+  
 end
 end
