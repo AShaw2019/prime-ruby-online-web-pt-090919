@@ -1,8 +1,7 @@
 def prime?(number)
   all_prime = true 
   [number].each do |number|
-    
-  if 
+  if  
  else
     [number].any?{|i| i > number}
  
