@@ -4,8 +4,7 @@ def prime?(number)
   elsif 
   number -= 1
   return false 
- 
-  
-  
-end
-end
+ end
+ [number].any?{|i| i > number}
+    return true
+ end
