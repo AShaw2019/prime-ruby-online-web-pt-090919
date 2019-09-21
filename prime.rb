@@ -5,5 +5,5 @@ def prime?(number)
     all_prime = false 
  else
     [number].any?{|i| i > number}
- 
+ end
  end
