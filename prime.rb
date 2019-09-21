@@ -7,6 +7,6 @@ def prime?(number)
   else
   [number].any?{|i| i > number}
     return true
-  else
+ 
   end
  end
