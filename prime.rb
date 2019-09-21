@@ -1,5 +1,5 @@
 def prime?(number)
-   if [n].any?{|prime| n > n}
+   if 
  else
    n = false 
  end
