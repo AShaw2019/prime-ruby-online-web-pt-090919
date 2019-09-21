@@ -1,6 +1,6 @@
 def prime?(number)
  
-  if all_prime = true
+all_prime = true
 [1,2,3].each do |number|
   if number.non_prime?
     all_prime = false
