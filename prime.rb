@@ -1,5 +1,7 @@
 def prime?(number)
-  if number
+  all_prime = true 
+  
+  if 
  else
     [number].any?{|i| i > number}
  
