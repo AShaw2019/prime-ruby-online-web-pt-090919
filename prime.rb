@@ -1,8 +1,9 @@
 def prime?(number)
- if [numbers].find{|number| number.prime?}
+ if  [number].any?{|i| i > number}
     return true 
 else 
-   [number].any?{|i| i > number}
+  [numbers].find{|number| number.prime?}
+  
    return false 
   end
  end
