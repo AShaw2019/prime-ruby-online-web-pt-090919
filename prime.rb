@@ -3,7 +3,7 @@ def prime?(number)
     return true
   elsif 
   number -= 1
-  return true
+  return false
  end
  [number].any?{|i| i > number}
     return true
