@@ -3,7 +3,7 @@ def prime?(number)
   [number].each do |number|
   if number.prime?
     all_prime = false 
- else
+ end
     [number].any?{|i| i > number}
  end
  end
